@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Electrónica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 0;
+            background-color: #444;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0;
+        }
+        nav ul li a {
+            display: block;
+            padding: 15px;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav ul li a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+        }
+        .book-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .book-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            width: calc(33% - 40px);
+            box-sizing: border-box;
+        }
+        .book-item h3 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Biblioteca Electrónica</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#catalog">Catálogo</a></li>
+            <li><a href="#about">Sobre Nosotros</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Bienvenido a nuestra Biblioteca Electrónica</h2>
+            <p>Explora nuestra vasta colección de libros digitales y recursos académicos. Encuentra el libro perfecto para tus necesidades de lectura o investigación.</p>
+        </section>
+        <section id="catalog">
+            <h2>Catálogo de Libros</h2>
+            <div class="book-list">
+                <div class="book-item">
+                    <h3>Libro 1</h3>
+                    <p>Autor: Autor 1</p>
+                    <p>Descripción breve del libro 1.</p>
+                </div>
+                <div class="book-item">
+                    <h3>Libro 2</h3>
+                    <p>Autor: Autor 2</p>
+                    <p>Descripción breve del libro 2.</p>
+                </div>
+                <div class="book-item">
+                    <h3>Libro 3</h3>
+                    <p>Autor: Autor 3</p>
+                    <p>Descripción breve del libro 3.</p>
+                </div>
+                <!-- Añadir más libros aquí -->
+            </div>
+        </section>
+        <section id="about">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una biblioteca digital dedicada a proporcionar acceso a una amplia gama de libros y recursos. Nuestro objetivo es facilitar la lectura y el estudio a personas de todo el mundo.</p>
+        </section>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Si tienes alguna pregunta o necesitas ayuda, no dudes en contactarnos.</p>
+            <p>Email: contacto@bibliotecaelectronica.com</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Biblioteca Electrónica. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
